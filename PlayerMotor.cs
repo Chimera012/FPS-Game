@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//the playermotor is responsible for all player movement. It constantly checks if the player is grounded, and has sprint, jump, and crouching features.
+
 public class PlayerMotor : MonoBehaviour
 {
     private CharacterController controller;
